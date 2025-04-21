@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(66, 60, 60);
+    color: white;
+}
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+header li{
+    display: inline-block;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 15px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+header a:before{
+    position: absolute;
+    content: ' ';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+header a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+main{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+.pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+ul li{
+    text-align: center;
+    list-style: none;
+}
+.pics{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer li{
+    display: inline-block;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 15px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+footer a:before{
+    position: absolute;
+    content: ' ';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+footer a:hover::before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
